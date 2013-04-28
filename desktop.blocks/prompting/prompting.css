@@ -1,0 +1,17 @@
+.prompting
+{
+    width: 52.8px;
+
+    padding: 0;
+
+    height: 100px;
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    background: green;
+
+    display: inline-block;
+}
