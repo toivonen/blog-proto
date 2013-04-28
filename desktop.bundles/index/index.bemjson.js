@@ -10,21 +10,11 @@
     ],
     content:[
         {
-            block: 'header',
+            block: 'layout',
             content: [
-                'header content goes here'
-            ]
-        },
-        {
-            block: 'content',
-            content: [
-                'main content'
-            ]
-        },
-        {
-            block: 'footer',
-            content: [
-                'footer content goes here'
+                { block: 'main' },
+                { block: 'sidebar' },
+                { block: 'prompting' }
             ]
         },
         { block: 'custom-fonts' },
