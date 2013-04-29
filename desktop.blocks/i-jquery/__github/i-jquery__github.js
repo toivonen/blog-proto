@@ -73,7 +73,8 @@
 			markup += '<div id="ghw-user"><a href="' + user.html_url + '" id="ghw-github-user">';
 			// If the user has a custom avatar then show it, if not display the default github avatar (served from their CDN)
 			if (typeof user.avatar_url !== "undefined" && user.avatar_url.length > 0) {
-				markup += '<img src="' + user.avatar_url + '" alt="Avatar" width="34px" height="34px" />';
+				//markup += '<img src="' + user.avatar_url + '" alt="Avatar" width="34px" height="34px" />';
+				markup += '<b style="background-image:url(' + user.avatar_url + ');"></b>';
 			} else {
 				markup += '<img src="https://a248.e.akamai.net/assets.github.com/images/gravatars/gravatar-140.png" alt="Avatar" width="34px" height="34px" />';
 			}

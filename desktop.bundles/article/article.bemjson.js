@@ -10,8 +10,7 @@
     ],
     content:[
         {
-            block: 'header',
-            content: 'h'
+            block: 'header'
         },
         {
             block: 'layout',
@@ -78,7 +77,9 @@
         },
         {
             block: 'footer',
-            content: 'f'
+            content: [
+                'test here'
+            ]
         },
         { block: 'custom-fonts' },
         { block: 'i-jquery', mods: { version: '1.8.3' } },
