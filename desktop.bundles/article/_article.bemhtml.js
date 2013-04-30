@@ -20,7 +20,7 @@ var BEMHTML = function() {
             this["_mode"] = __r78;
             "";
             __r80 = __r79;
-            this["__$anflg813025386"] = __r76;
+            this["__$anflg888114652"] = __r76;
             "";
             return __$callback.call(this, null, __r80);
         }
@@ -28,8 +28,8 @@ var BEMHTML = function() {
         var __this;
         __this = this;
         "";
-        __r76 = this["__$anflg813025386"];
-        this["__$anflg813025386"] = true;
+        __r76 = this["__$anflg888114652"];
+        this["__$anflg888114652"] = true;
         "";
         __r77 = this["ctx"];
         __$i20 = this;
@@ -206,7 +206,7 @@ var BEMHTML = function() {
         }
     }
     function $31(__$callback) {
-        if (!(this["__$anflg755408331"] !== true) === false) {
+        if (!(this["__$anflg239493373"] !== true) === false) {
             if (!!this.elem === false) {
                 return $34.call(this, __$callback);
             } else {
@@ -238,7 +238,7 @@ var BEMHTML = function() {
                     this["ctx"] = __r57;
                     this["_mode"] = __r58;
                     "";
-                    this["__$anflg755408331"] = __r56;
+                    this["__$anflg239493373"] = __r56;
                     "";
                     undefined;
                     return __$callback.call(this, null);
@@ -284,8 +284,8 @@ var BEMHTML = function() {
                     }, _$mctx ]
                 } ];
                 "";
-                __r56 = this["__$anflg755408331"];
-                this["__$anflg755408331"] = true;
+                __r56 = this["__$anflg239493373"];
+                this["__$anflg239493373"] = true;
                 "";
                 __r57 = this["ctx"];
                 this["ctx"] = _$mbuf;
@@ -617,7 +617,7 @@ var BEMHTML = function() {
         } ]);
     }
     function $215(__$callback) {
-        return __$callback.call(this, null, '···<b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor">|</b>');
+        return __$callback.call(this, null, '···<b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b>');
     }
     function $220(__$callback) {
         return __$callback.call(this, null, [ {
@@ -2350,7 +2350,7 @@ var BEMHTML = function() {
         if (__t === "default") {
             var __t = this.block;
             if (__t === "i-jquery") {
-                if (!(this["__$anflg813025386"] !== true) === false) {
+                if (!(this["__$anflg888114652"] !== true) === false) {
                     if (!!this.elem === false) {
                         return $6.call(this, __$callback);
                     } else {
