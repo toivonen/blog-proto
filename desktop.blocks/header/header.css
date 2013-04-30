@@ -20,19 +20,19 @@
     width: auto;
     display: table-cell;
     text-align: right;
-    width: 762px;
+    width: 778px;
 }
 .header__center
 {
     padding: 0;
     margin: 0;
     display: table-cell;
-    width: 216px;
+    width: 200px;
 }
 .header__right
 {
     width: 325px;
-    padding-left: 10px;
+    padding-left: 20px;
     display: table-cell;
 }
 
