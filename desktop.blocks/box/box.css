@@ -11,13 +11,11 @@
 .box__island
 {
     padding: 0 1em;
-    background-color: #f6f6f6;
+    background-color: #f9f9f9;
 
     padding: 1em;
-    margin-top: 1em;
+    margin-top: .25em;
 
-    box-shadow:
-        0 8px 30px -5px rgba(0,0,0, .4);
     border: rgba(0,0,0, .075) 1px solid;
 }
 
