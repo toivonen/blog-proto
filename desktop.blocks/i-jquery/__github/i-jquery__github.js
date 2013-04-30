@@ -69,7 +69,7 @@
 			var markup = '';
 			// As it's setting a simple string, the width value can be anything acceptable to CSS (px/%/em/pt etc)
 			markup += '<div id="ghw-github" style="width: ' + options.width + '">';
-			markup += '<div id="ghw-header" class="ghw-clear box__body">';
+			markup += '<div id="ghw-header" class="ghw-clear">';
 			markup += '<div id="ghw-user"><a href="' + user.html_url + '" id="ghw-github-user">';
 			// If the user has a custom avatar then show it, if not display the default github avatar (served from their CDN)
 			if (typeof user.avatar_url !== "undefined" && user.avatar_url.length > 0) {
@@ -120,7 +120,7 @@
 			markup += '</div>';
 			markup += '</div>';
 			// The element which the repos partial will eventually be appended to
-			markup += '<div id="ghw-repos" class="box__island"><div id="ghw-github-loader"></div><ul></ul></div>';
+			markup += '<div id="ghw-repos"><div id="ghw-github-loader"></div><ul></ul></div>';
 			markup += '</div>';
 			return markup;
 		},

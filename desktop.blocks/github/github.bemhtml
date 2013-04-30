@@ -1,9 +1,7 @@
 block github {
-    mix: { block: 'box' }
     content: [
         {
             elem: 'header',
-            mix: { block: 'box', elem: 'body' },
             content: [
                 {
                     elem: 'title',
