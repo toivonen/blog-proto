@@ -17,8 +17,21 @@
 {
     color: #82B964;
 }
+@-webkit-keyframes twinkly {
+    0%   { background: #D24D33; }
+    100% { background: lightgrey; }
+}
+@-moz-keyframes twinkly {
+    0%   { background: #D24D33; }
+    100% { background: lightgrey; }
+}
 
 .logo .cursor
 {
-    color: #D24D33;
+    width: 3px;
+    height: 45px;
+    margin-bottom: -10px;
+    display: inline-block;
+    -webkit-animation: twinkly .5s alternate infinite;
+    -moz-animation: twinkly .5s alternate infinite;
 }
