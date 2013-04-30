@@ -22,6 +22,10 @@
                             block: 'article',
                             title: 'The Case of The Wonderful Button',
                             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                        },
+                        {
+                            block: 'related',
+                            content: 'xxx'
                         }
                     ]
                 },
@@ -30,7 +34,6 @@
                     content: [
                         {
                             block: 'b-menu-vert',
-                            mix: [{ block: 'box' }, { block: 'box', elem: 'body'}],
                             content: [
                                 {
                                     elem: 'title',
@@ -83,7 +86,15 @@
         {
             block: 'footer',
             content: [
-                'test here'
+                {
+                    elem: 'left'
+                },
+                {
+                    elem: 'center'
+                },
+                {
+                    elem: 'right'
+                }
             ]
         },
         { block: 'custom-fonts' },
