@@ -20,7 +20,7 @@
     width: auto;
     display: table-cell;
     text-align: right;
-    width: 702px;
+    width: 762px;
 }
 .header__center
 {
@@ -31,7 +31,7 @@
 }
 .header__right
 {
-    width: 385px;
+    width: 325px;
     padding-left: 10px;
     display: table-cell;
 }
