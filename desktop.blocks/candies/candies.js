@@ -13,12 +13,13 @@ BEM.DOM.decl('candies', {
                 candies = [],
                 i = 0,
                 colorIndex = this.__self.stopPoint,
-                initSize = 4;
+                initSize = 4,
+                rt = 6,
                 newSize = function(max, min) {
                     return Math.round(Math.random()*(max - min) + min);
                 }
 
-            while(width > p.size.max + 4) {
+            while(width > 2*rt) {
 
                 if (initSize < p.size.min) {
                     size = newSize(initSize, initSize);
@@ -26,14 +27,13 @@ BEM.DOM.decl('candies', {
                 } else {
                     size = newSize(p.size.max, p.size.min);
                 }
+                if (size > width - 2*rt) size = width - 2*rt;
                 bt = Math.round(Math.sin(i/2.5 + 1.5)*p.size.max*0.9/2);
-                rt = Math.abs(Math.round(Math.sin(i*i)*p.size.max*0.9/2));
-                rt = 6;
                 //bt = Math.round(Math.sin(i/2.5)*p.size.max*0.9/Math.sqrt(i));
 
                 lastSize = size;
                 width = width - size - rt;
-                candies.push('<b class="candies_i" style="width:' + size + 'px; height:' + size + 'px; background:#' + this.__self.colors[colorIndex] +';margin: auto ' + rt + 'px ' + bt + 'px 0"></b>');
+                candies.push('<b alt="' + i + '" class="candies_i" style="width:' + size + 'px; height:' + size + 'px; background:#' + this.__self.colors[colorIndex] +';margin: auto ' + rt + 'px ' + bt + 'px 0"></b>');
                 i++;
                 colorIndex++;
                 if (!this.__self.colors[colorIndex]) {
