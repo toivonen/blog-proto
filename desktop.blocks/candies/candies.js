@@ -13,7 +13,7 @@ BEM.DOM.decl('candies', {
                 candies = [],
                 i = 0,
                 colorIndex = this.__self.stopPoint,
-                initSize = 4,
+                initSize = 6,
                 rt = 6,
                 newSize = function(max, min) {
                     return Math.round(Math.random()*(max - min) + min);
