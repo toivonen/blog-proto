@@ -1,0 +1,22 @@
+.social-ico__ico
+{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: .25em;
+}
+
+.social-ico__twitter
+{
+    background: url(__twitter/social-ico__twitter.png);
+}
+
+.social-ico__facebook
+{
+    background: url(__facebook/social-ico__facebook.png);
+}
+
+.social-ico__linkedin
+{
+    background: url(__linkedin/social-ico__linkedin.png);
+}

@@ -1,0 +1,19 @@
+block github {
+    mix: { block: 'box' }
+    content: [
+        {
+            elem: 'header',
+            mix: { block: 'box', elem: 'body' },
+            content: [
+                {
+                    elem: 'title',
+                    content: 'Me on GitHub',
+                    mix: { block: 'box', elem: 'title' }
+                }
+            ]
+        },
+        {
+            elem: 'body'
+        }
+    ]
+}

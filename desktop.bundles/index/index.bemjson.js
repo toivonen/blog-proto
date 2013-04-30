@@ -32,7 +32,20 @@
         },
         {
             block: 'footer',
-            content: 'f'
+            content: [
+                {
+                    elem: 'line',
+                    mix: {
+                        block: 'candies',
+                        js: {
+                            size: {
+                                max: 22,
+                                min: 6
+                            }
+                        }
+                    }
+                }
+            ]
         },
         { block: 'custom-fonts' },
         { block: 'i-jquery', mods: { version: '1.8.3' } },

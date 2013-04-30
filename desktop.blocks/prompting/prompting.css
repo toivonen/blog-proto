@@ -5,14 +5,15 @@
     -ms-flex-order: 1;
     -webkit-order: 1;
     order: 1;
-    width: 9%;
+    width: 5.5%;
     display: block;
-    background: lightblue;
+    padding-right: 2em;
+    padding-right: 3%;
 }
 
 .prompting:before {
   content: '';
-  width: 5em;
+  width: 4em;
   display: block;
   height: 0;
 }
