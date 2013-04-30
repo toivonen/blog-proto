@@ -5,8 +5,10 @@
     -ms-flex-order: 1;
     -webkit-order: 1;
     order: 1;
-    width: 9%;
+    width: 6%;
     display: block;
+    padding-right: 2em;
+    padding-right: 3%;
 }
 
 .prompting:before {
