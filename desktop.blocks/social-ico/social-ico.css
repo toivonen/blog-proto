@@ -1,9 +1,22 @@
+/* Icons: http://www.iconarchive.com/show/simple-icons-by-danleech.1.html */
 .social-ico__ico
 {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
     display: inline-block;
     margin: .25em;
+    border-radius: 50%;
+}
+
+.social-ico__rss
+{
+    background: url(__rss/social-ico__rss.png);
+    display: none;
+}
+
+.social-ico__github
+{
+    background: url(__github/social-ico__github.png);
 }
 
 .social-ico__twitter

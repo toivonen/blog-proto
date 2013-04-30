@@ -1,7 +1,9 @@
 block social-ico {
 
     content: [
+        { elem: 'rss' },
         { elem: 'twitter' },
+        { elem: 'github' },
         { elem: 'facebook' },
         { elem: 'linkedin' }
     ]
@@ -26,6 +28,11 @@ block social-ico {
 
     elem linkedin, attrs: {
         href: 'http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b',
+        target: '_blank'
+    }
+
+    elem github, attrs: {
+        href: 'https://github.com/toivonen',
         target: '_blank'
     }
 
