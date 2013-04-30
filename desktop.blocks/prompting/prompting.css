@@ -9,6 +9,7 @@
     display: block;
     padding-right: 2em;
     padding-right: 3%;
+    text-align: right;
 }
 
 .prompting:before {
