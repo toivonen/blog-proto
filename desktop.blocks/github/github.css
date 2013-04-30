@@ -45,10 +45,10 @@ html[xmlns] .ghw-clear { display: block;}
 	display: block;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    border: #82B964 4px solid;
-    background-size: 36px 36px;
+    width: 43px;
+    height: 43px;
+    border: #82B964 5px solid;
+    background-size: 43px 43px;
 }
 .ghw-no-bottom-border {
 	-webkit-border-bottom-right-radius: 0!important;
