@@ -71,7 +71,12 @@
                 },
                 {
                     block: 'prompting',
-                    content: 'p'
+                    content: [
+                        {
+                            block: 'social-ico',
+                            url: '#'
+                        }
+                    ]
                 }
             ]
         },
